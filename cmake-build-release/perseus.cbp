@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="perseus"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/ed19aaf/Programming/C++/perseus/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ed19aaf/Programming/C++/perseus/cmake-build-release/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ed19aaf/Programming/C++/perseus/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ed19aaf/Programming/C++/perseus/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ed19aaf/Programming/C++/perseus/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/ed19aaf/Programming/C++/perseus/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ed19aaf/Programming/C++/perseus/cmake-build-release/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ed19aaf/Programming/C++/perseus/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ed19aaf/Programming/C++/perseus/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ed19aaf/Programming/C++/perseus/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="perseus">
+				<Option output="/home/ed19aaf/Programming/C++/perseus/cmake-build-release/perseus" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ed19aaf/Programming/C++/perseus/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/include/c++/7.3.0"/>
+					<Add directory="/home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/include/c++/7.3.0/x86_64-conda_cos6-linux-gnu"/>
+					<Add directory="/home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/include/c++/7.3.0/backward"/>
+					<Add directory="/home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/include"/>
+					<Add directory="/home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/include-fixed"/>
+					<Add directory="/home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/include"/>
+					<Add directory="/home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ed19aaf/Programming/C++/perseus/cmake-build-release/Makefile&quot;  VERBOSE=1 perseus"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ed19aaf/Programming/C++/perseus/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ed19aaf/Programming/C++/perseus/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ed19aaf/Programming/C++/perseus/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="perseus/fast">
+				<Option output="/home/ed19aaf/Programming/C++/perseus/cmake-build-release/perseus" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ed19aaf/Programming/C++/perseus/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/include/c++/7.3.0"/>
+					<Add directory="/home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/include/c++/7.3.0/x86_64-conda_cos6-linux-gnu"/>
+					<Add directory="/home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/include/c++/7.3.0/backward"/>
+					<Add directory="/home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/include"/>
+					<Add directory="/home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/include-fixed"/>
+					<Add directory="/home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/include"/>
+					<Add directory="/home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ed19aaf/Programming/C++/perseus/cmake-build-release/Makefile&quot;  VERBOSE=1 perseus/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ed19aaf/Programming/C++/perseus/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ed19aaf/Programming/C++/perseus/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ed19aaf/Programming/C++/perseus/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/ed19aaf/Programming/C++/perseus/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ed19aaf/Programming/C++/perseus/cmake-build-release/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ed19aaf/Programming/C++/perseus/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ed19aaf/Programming/C++/perseus/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ed19aaf/Programming/C++/perseus/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/ed19aaf/Programming/C++/perseus/Pers.cpp">
+			<Option target="perseus"/>
+		</Unit>
+		<Unit filename="/home/ed19aaf/Programming/C++/perseus/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
