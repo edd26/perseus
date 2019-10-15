@@ -1,0 +1,4 @@
+/home/ed19aaf/clion-2019.2.4/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/ed19aaf/Programming/C++/perseus
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ed19aaf/Programming/C++/perseus/cmake-build-debug

@@ -1,0 +1,457 @@
+The system is: Linux - 5.0.0-31-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /home/ed19aaf/anaconda3/bin/x86_64-conda_cos6-linux-gnu-cc 
+Build flags: -march=nocona;-mtune=haswell;-ftree-vectorize;-fPIC;-fstack-protector-strong;-fno-plt;-O2;-ffunction-sections;-pipe
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/ed19aaf/Programming/C++/perseus/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /home/ed19aaf/anaconda3/bin/x86_64-conda_cos6-linux-gnu-c++ 
+Build flags: -fvisibility-inlines-hidden;-std=c++17;-fmessage-length=0;-march=nocona;-mtune=haswell;-ftree-vectorize;-fPIC;-fstack-protector-strong;-fno-plt;-O2;-ffunction-sections;-pipe
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/ed19aaf/Programming/C++/perseus/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/ed19aaf/Programming/C++/perseus/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_78882/fast && /usr/bin/make -f CMakeFiles/cmTC_78882.dir/build.make CMakeFiles/cmTC_78882.dir/build
+make[1]: Entering directory '/home/ed19aaf/Programming/C++/perseus/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_78882.dir/testCCompiler.c.o
+/home/ed19aaf/anaconda3/bin/x86_64-conda_cos6-linux-gnu-cc   -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe    -o CMakeFiles/cmTC_78882.dir/testCCompiler.c.o   -c /home/ed19aaf/Programming/C++/perseus/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_78882
+/home/ed19aaf/clion-2019.2.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_78882.dir/link.txt --verbose=1
+/home/ed19aaf/anaconda3/bin/x86_64-conda_cos6-linux-gnu-cc -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe   -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections  CMakeFiles/cmTC_78882.dir/testCCompiler.c.o  -o cmTC_78882 
+make[1]: Leaving directory '/home/ed19aaf/Programming/C++/perseus/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/ed19aaf/Programming/C++/perseus/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_031f0/fast && /usr/bin/make -f CMakeFiles/cmTC_031f0.dir/build.make CMakeFiles/cmTC_031f0.dir/build
+make[1]: Entering directory '/home/ed19aaf/Programming/C++/perseus/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_031f0.dir/CMakeCCompilerABI.c.o
+/home/ed19aaf/anaconda3/bin/x86_64-conda_cos6-linux-gnu-cc   -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe    -v -o CMakeFiles/cmTC_031f0.dir/CMakeCCompilerABI.c.o   -c /home/ed19aaf/clion-2019.2.4/bin/cmake/linux/share/cmake-3.15/Modules/CMakeCCompilerABI.c
+Reading specs from /home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/specs
+COLLECT_GCC=/home/ed19aaf/anaconda3/bin/x86_64-conda_cos6-linux-gnu-cc
+Target: x86_64-conda_cos6-linux-gnu
+Configured with: /home/rdonnelly/mc/conda-bld/compilers_linux-64_1534865402226/work/.build/x86_64-conda_cos6-linux-gnu/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=x86_64-conda_cos6-linux-gnu --prefix=/home/rdonnelly/mc/conda-bld/compilers_linux-64_1534865402226/work/gcc_built --with-sysroot=/home/rdonnelly/mc/conda-bld/compilers_linux-64_1534865402226/work/gcc_built/x86_64-conda_cos6-linux-gnu/sysroot --enable-languages=c,c++,fortran,objc,obj-c++ --with-pkgversion='crosstool-NG 1.23.0.449-a04d0' --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --enable-libmpx --with-gmp=/home/rdonnelly/mc/conda-bld/compilers_linux-64_1534865402226/work/.build/x86_64-conda_cos6-linux-gnu/buildtools --with-mpfr=/home/rdonnelly/mc/conda-bld/compilers_linux-64_1534865402226/work/.build/x86_64-conda_cos6-linux-gnu/buildtools --with-mpc=/home/rdonnelly/mc/conda-bld/compilers_linux-64_1534865402226/work/.build/x86_64-conda_cos6-linux-gnu/buildtools --with-isl=/home/rdonnelly/mc/conda-bld/compilers_linux-64_1534865402226/work/.build/x86_64-conda_cos6-linux-gnu/buildtools --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-multilib --with-local-prefix=/home/rdonnelly/mc/conda-bld/compilers_linux-64_1534865402226/work/gcc_built/x86_64-conda_cos6-linux-gnu/sysroot --enable-long-long --enable-default-pie
+Thread model: posix
+gcc version 7.3.0 (crosstool-NG 1.23.0.449-a04d0) 
+COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-v' '-o' 'CMakeFiles/cmTC_031f0.dir/CMakeCCompilerABI.c.o' '-c'
+ /home/ed19aaf/anaconda3/bin/../libexec/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/cc1 -quiet -v -iprefix /home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/ -isysroot /home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot /home/ed19aaf/clion-2019.2.4/bin/cmake/linux/share/cmake-3.15/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -march=nocona -mtune=haswell -auxbase-strip CMakeFiles/cmTC_031f0.dir/CMakeCCompilerABI.c.o -O2 -version -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -ffunction-sections -o - |
+ /home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_031f0.dir/CMakeCCompilerABI.c.o
+GNU C11 (crosstool-NG 1.23.0.449-a04d0) version 7.3.0 (x86_64-conda_cos6-linux-gnu)
+	compiled by GNU C version 4.4.7 20120313 (Red Hat 4.4.7-18), GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/home/ed19aaf/anaconda3/bin/../lib/gcc/../../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/include"
+ignoring nonexistent directory "/home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/home/rdonnelly/mc/conda-bld/compilers_linux-64_1534865402226/work/gcc_built/x86_64-conda_cos6-linux-gnu/sysroot/include"
+ignoring duplicate directory "/home/ed19aaf/anaconda3/bin/../lib/gcc/../../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/include-fixed"
+ignoring duplicate directory "/home/ed19aaf/anaconda3/bin/../lib/gcc/../../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/include
+ /home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/include-fixed
+ /home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/include
+ /home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/include
+End of search list.
+GNU C11 (crosstool-NG 1.23.0.449-a04d0) version 7.3.0 (x86_64-conda_cos6-linux-gnu)
+	compiled by GNU C version 4.4.7 20120313 (Red Hat 4.4.7-18), GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 5f20d987048986f2a552GNU assembler version 2.31.1 (x86_64-conda_cos6-linux-gnu) using BFD version (crosstool-NG 1.23.0.444-4ea7) 2.31.1
+89b7d7729157
+COMPILER_PATH=/home/ed19aaf/anaconda3/bin/../libexec/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/:/home/ed19aaf/anaconda3/bin/../libexec/gcc/:/home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/bin/
+LIBRARY_PATH=/home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/:/home/ed19aaf/anaconda3/bin/../lib/gcc/:/home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/lib/../lib/:/home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/lib/../lib/:/home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/lib/../lib/:/home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/lib/:/home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/lib/:/home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-v' '-o' 'CMakeFiles/cmTC_031f0.dir/CMakeCCompilerABI.c.o' '-c'
+Linking C executable cmTC_031f0
+/home/ed19aaf/clion-2019.2.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_031f0.dir/link.txt --verbose=1
+/home/ed19aaf/anaconda3/bin/x86_64-conda_cos6-linux-gnu-cc -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe   -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -v CMakeFiles/cmTC_031f0.dir/CMakeCCompilerABI.c.o  -o cmTC_031f0 
+Reading specs from /home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/specs
+COLLECT_GCC=/home/ed19aaf/anaconda3/bin/x86_64-conda_cos6-linux-gnu-cc
+COLLECT_LTO_WRAPPER=/home/ed19aaf/anaconda3/bin/../libexec/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/lto-wrapper
+Target: x86_64-conda_cos6-linux-gnu
+Configured with: /home/rdonnelly/mc/conda-bld/compilers_linux-64_1534865402226/work/.build/x86_64-conda_cos6-linux-gnu/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=x86_64-conda_cos6-linux-gnu --prefix=/home/rdonnelly/mc/conda-bld/compilers_linux-64_1534865402226/work/gcc_built --with-sysroot=/home/rdonnelly/mc/conda-bld/compilers_linux-64_1534865402226/work/gcc_built/x86_64-conda_cos6-linux-gnu/sysroot --enable-languages=c,c++,fortran,objc,obj-c++ --with-pkgversion='crosstool-NG 1.23.0.449-a04d0' --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --enable-libmpx --with-gmp=/home/rdonnelly/mc/conda-bld/compilers_linux-64_1534865402226/work/.build/x86_64-conda_cos6-linux-gnu/buildtools --with-mpfr=/home/rdonnelly/mc/conda-bld/compilers_linux-64_1534865402226/work/.build/x86_64-conda_cos6-linux-gnu/buildtools --with-mpc=/home/rdonnelly/mc/conda-bld/compilers_linux-64_1534865402226/work/.build/x86_64-conda_cos6-linux-gnu/buildtools --with-isl=/home/rdonnelly/mc/conda-bld/compilers_linux-64_1534865402226/work/.build/x86_64-conda_cos6-linux-gnu/buildtools --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-multilib --with-local-prefix=/home/rdonnelly/mc/conda-bld/compilers_linux-64_1534865402226/work/gcc_built/x86_64-conda_cos6-linux-gnu/sysroot --enable-long-long --enable-default-pie
+Thread model: posix
+gcc version 7.3.0 (crosstool-NG 1.23.0.449-a04d0) 
+COMPILER_PATH=/home/ed19aaf/anaconda3/bin/../libexec/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/:/home/ed19aaf/anaconda3/bin/../libexec/gcc/:/home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/bin/
+LIBRARY_PATH=/home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/:/home/ed19aaf/anaconda3/bin/../lib/gcc/:/home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/lib/../lib/:/home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/lib/../lib/:/home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/lib/../lib/:/home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/lib/:/home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/lib/:/home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-v' '-o' 'cmTC_031f0'
+ /home/ed19aaf/anaconda3/bin/../libexec/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/collect2 -plugin /home/ed19aaf/anaconda3/bin/../libexec/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/liblto_plugin.so -plugin-opt=/home/ed19aaf/anaconda3/bin/../libexec/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccyY1l31.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_031f0 /home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/crtbeginS.o -L/home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0 -L/home/ed19aaf/anaconda3/bin/../lib/gcc -L/home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/lib/../lib -L/home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/lib/../lib -L/home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/lib/../lib -L/home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/lib -L/home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/lib -L/home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/lib -rpath /home/ed19aaf/anaconda3/lib -O2 --sort-common --as-needed -z relro -z now --disable-new-dtags --gc-sections CMakeFiles/cmTC_031f0.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/crtendS.o /home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/lib/../lib/crtn.o
+COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-v' '-o' 'cmTC_031f0'
+make[1]: Leaving directory '/home/ed19aaf/Programming/C++/perseus/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/include]
+    add: [/home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/include-fixed]
+    add: [/home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/include]
+    add: [/home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/include]
+  end of search list found
+  collapse include dir [/home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/include] ==> [/home/ed19aaf/anaconda3/lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/include]
+  collapse include dir [/home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/include-fixed] ==> [/home/ed19aaf/anaconda3/lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/include-fixed]
+  collapse include dir [/home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/include] ==> [/home/ed19aaf/anaconda3/x86_64-conda_cos6-linux-gnu/include]
+  collapse include dir [/home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/include] ==> [/home/ed19aaf/anaconda3/x86_64-conda_cos6-linux-gnu/sysroot/usr/include]
+  implicit include dirs: [/home/ed19aaf/anaconda3/lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/include;/home/ed19aaf/anaconda3/lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/include-fixed;/home/ed19aaf/anaconda3/x86_64-conda_cos6-linux-gnu/include;/home/ed19aaf/anaconda3/x86_64-conda_cos6-linux-gnu/sysroot/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/ed19aaf/Programming/C++/perseus/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_031f0/fast && /usr/bin/make -f CMakeFiles/cmTC_031f0.dir/build.make CMakeFiles/cmTC_031f0.dir/build]
+  ignore line: [make[1]: Entering directory '/home/ed19aaf/Programming/C++/perseus/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_031f0.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/home/ed19aaf/anaconda3/bin/x86_64-conda_cos6-linux-gnu-cc   -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe    -v -o CMakeFiles/cmTC_031f0.dir/CMakeCCompilerABI.c.o   -c /home/ed19aaf/clion-2019.2.4/bin/cmake/linux/share/cmake-3.15/Modules/CMakeCCompilerABI.c]
+  ignore line: [Reading specs from /home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/specs]
+  ignore line: [COLLECT_GCC=/home/ed19aaf/anaconda3/bin/x86_64-conda_cos6-linux-gnu-cc]
+  ignore line: [Target: x86_64-conda_cos6-linux-gnu]
+  ignore line: [Configured with: /home/rdonnelly/mc/conda-bld/compilers_linux-64_1534865402226/work/.build/x86_64-conda_cos6-linux-gnu/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=x86_64-conda_cos6-linux-gnu --prefix=/home/rdonnelly/mc/conda-bld/compilers_linux-64_1534865402226/work/gcc_built --with-sysroot=/home/rdonnelly/mc/conda-bld/compilers_linux-64_1534865402226/work/gcc_built/x86_64-conda_cos6-linux-gnu/sysroot --enable-languages=c,c++,fortran,objc,obj-c++ --with-pkgversion='crosstool-NG 1.23.0.449-a04d0' --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --enable-libmpx --with-gmp=/home/rdonnelly/mc/conda-bld/compilers_linux-64_1534865402226/work/.build/x86_64-conda_cos6-linux-gnu/buildtools --with-mpfr=/home/rdonnelly/mc/conda-bld/compilers_linux-64_1534865402226/work/.build/x86_64-conda_cos6-linux-gnu/buildtools --with-mpc=/home/rdonnelly/mc/conda-bld/compilers_linux-64_1534865402226/work/.build/x86_64-conda_cos6-linux-gnu/buildtools --with-isl=/home/rdonnelly/mc/conda-bld/compilers_linux-64_1534865402226/work/.build/x86_64-conda_cos6-linux-gnu/buildtools --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-multilib --with-local-prefix=/home/rdonnelly/mc/conda-bld/compilers_linux-64_1534865402226/work/gcc_built/x86_64-conda_cos6-linux-gnu/sysroot --enable-long-long --enable-default-pie]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.3.0 (crosstool-NG 1.23.0.449-a04d0) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-v' '-o' 'CMakeFiles/cmTC_031f0.dir/CMakeCCompilerABI.c.o' '-c']
+  ignore line: [ /home/ed19aaf/anaconda3/bin/../libexec/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/cc1 -quiet -v -iprefix /home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/ -isysroot /home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot /home/ed19aaf/clion-2019.2.4/bin/cmake/linux/share/cmake-3.15/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -march=nocona -mtune=haswell -auxbase-strip CMakeFiles/cmTC_031f0.dir/CMakeCCompilerABI.c.o -O2 -version -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -ffunction-sections -o - |]
+  ignore line: [ /home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_031f0.dir/CMakeCCompilerABI.c.o]
+  ignore line: [GNU C11 (crosstool-NG 1.23.0.449-a04d0) version 7.3.0 (x86_64-conda_cos6-linux-gnu)]
+  ignore line: [	compiled by GNU C version 4.4.7 20120313 (Red Hat 4.4.7-18), GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/home/ed19aaf/anaconda3/bin/../lib/gcc/../../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/include"]
+  ignore line: [ignoring nonexistent directory "/home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/home/rdonnelly/mc/conda-bld/compilers_linux-64_1534865402226/work/gcc_built/x86_64-conda_cos6-linux-gnu/sysroot/include"]
+  ignore line: [ignoring duplicate directory "/home/ed19aaf/anaconda3/bin/../lib/gcc/../../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/include-fixed"]
+  ignore line: [ignoring duplicate directory "/home/ed19aaf/anaconda3/bin/../lib/gcc/../../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/include]
+  ignore line: [ /home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/include-fixed]
+  ignore line: [ /home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/include]
+  ignore line: [ /home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C11 (crosstool-NG 1.23.0.449-a04d0) version 7.3.0 (x86_64-conda_cos6-linux-gnu)]
+  ignore line: [	compiled by GNU C version 4.4.7 20120313 (Red Hat 4.4.7-18), GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 5f20d987048986f2a552GNU assembler version 2.31.1 (x86_64-conda_cos6-linux-gnu) using BFD version (crosstool-NG 1.23.0.444-4ea7) 2.31.1]
+  ignore line: [89b7d7729157]
+  ignore line: [COMPILER_PATH=/home/ed19aaf/anaconda3/bin/../libexec/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/:/home/ed19aaf/anaconda3/bin/../libexec/gcc/:/home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/bin/]
+  ignore line: [LIBRARY_PATH=/home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/:/home/ed19aaf/anaconda3/bin/../lib/gcc/:/home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/lib/../lib/:/home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/lib/../lib/:/home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/lib/../lib/:/home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/lib/:/home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/lib/:/home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-v' '-o' 'CMakeFiles/cmTC_031f0.dir/CMakeCCompilerABI.c.o' '-c']
+  ignore line: [Linking C executable cmTC_031f0]
+  ignore line: [/home/ed19aaf/clion-2019.2.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_031f0.dir/link.txt --verbose=1]
+  ignore line: [/home/ed19aaf/anaconda3/bin/x86_64-conda_cos6-linux-gnu-cc -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe   -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -v CMakeFiles/cmTC_031f0.dir/CMakeCCompilerABI.c.o  -o cmTC_031f0 ]
+  ignore line: [Reading specs from /home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/specs]
+  ignore line: [COLLECT_GCC=/home/ed19aaf/anaconda3/bin/x86_64-conda_cos6-linux-gnu-cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/ed19aaf/anaconda3/bin/../libexec/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/lto-wrapper]
+  ignore line: [Target: x86_64-conda_cos6-linux-gnu]
+  ignore line: [Configured with: /home/rdonnelly/mc/conda-bld/compilers_linux-64_1534865402226/work/.build/x86_64-conda_cos6-linux-gnu/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=x86_64-conda_cos6-linux-gnu --prefix=/home/rdonnelly/mc/conda-bld/compilers_linux-64_1534865402226/work/gcc_built --with-sysroot=/home/rdonnelly/mc/conda-bld/compilers_linux-64_1534865402226/work/gcc_built/x86_64-conda_cos6-linux-gnu/sysroot --enable-languages=c,c++,fortran,objc,obj-c++ --with-pkgversion='crosstool-NG 1.23.0.449-a04d0' --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --enable-libmpx --with-gmp=/home/rdonnelly/mc/conda-bld/compilers_linux-64_1534865402226/work/.build/x86_64-conda_cos6-linux-gnu/buildtools --with-mpfr=/home/rdonnelly/mc/conda-bld/compilers_linux-64_1534865402226/work/.build/x86_64-conda_cos6-linux-gnu/buildtools --with-mpc=/home/rdonnelly/mc/conda-bld/compilers_linux-64_1534865402226/work/.build/x86_64-conda_cos6-linux-gnu/buildtools --with-isl=/home/rdonnelly/mc/conda-bld/compilers_linux-64_1534865402226/work/.build/x86_64-conda_cos6-linux-gnu/buildtools --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-multilib --with-local-prefix=/home/rdonnelly/mc/conda-bld/compilers_linux-64_1534865402226/work/gcc_built/x86_64-conda_cos6-linux-gnu/sysroot --enable-long-long --enable-default-pie]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.3.0 (crosstool-NG 1.23.0.449-a04d0) ]
+  ignore line: [COMPILER_PATH=/home/ed19aaf/anaconda3/bin/../libexec/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/:/home/ed19aaf/anaconda3/bin/../libexec/gcc/:/home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/bin/]
+  ignore line: [LIBRARY_PATH=/home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/:/home/ed19aaf/anaconda3/bin/../lib/gcc/:/home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/lib/../lib/:/home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/lib/../lib/:/home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/lib/../lib/:/home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/lib/:/home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/lib/:/home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-v' '-o' 'cmTC_031f0']
+  link line: [ /home/ed19aaf/anaconda3/bin/../libexec/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/collect2 -plugin /home/ed19aaf/anaconda3/bin/../libexec/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/liblto_plugin.so -plugin-opt=/home/ed19aaf/anaconda3/bin/../libexec/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccyY1l31.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_031f0 /home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/crtbeginS.o -L/home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0 -L/home/ed19aaf/anaconda3/bin/../lib/gcc -L/home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/lib/../lib -L/home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/lib/../lib -L/home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/lib/../lib -L/home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/lib -L/home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/lib -L/home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/lib -rpath /home/ed19aaf/anaconda3/lib -O2 --sort-common --as-needed -z relro -z now --disable-new-dtags --gc-sections CMakeFiles/cmTC_031f0.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/crtendS.o /home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/lib/../lib/crtn.o]
+    arg [/home/ed19aaf/anaconda3/bin/../libexec/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/home/ed19aaf/anaconda3/bin/../libexec/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/ed19aaf/anaconda3/bin/../libexec/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccyY1l31.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_031f0] ==> ignore
+    arg [/home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o] ==> ignore
+    arg [/home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/lib/../lib/crti.o] ==> ignore
+    arg [/home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/crtbeginS.o] ==> ignore
+    arg [-L/home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0] ==> dir [/home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0]
+    arg [-L/home/ed19aaf/anaconda3/bin/../lib/gcc] ==> dir [/home/ed19aaf/anaconda3/bin/../lib/gcc]
+    arg [-L/home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/lib/../lib] ==> dir [/home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/lib/../lib]
+    arg [-L/home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/lib/../lib] ==> dir [/home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/lib/../lib]
+    arg [-L/home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/lib/../lib] ==> dir [/home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/lib/../lib]
+    arg [-L/home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/lib] ==> dir [/home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/lib]
+    arg [-L/home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/lib] ==> dir [/home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/lib]
+    arg [-L/home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/lib] ==> dir [/home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/lib]
+    arg [-rpath] ==> ignore
+    arg [/home/ed19aaf/anaconda3/lib] ==> ignore
+    arg [-O2] ==> ignore
+    arg [--sort-common] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-znow] ==> ignore
+    arg [--disable-new-dtags] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [CMakeFiles/cmTC_031f0.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/crtendS.o] ==> ignore
+    arg [/home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/lib/../lib/crtn.o] ==> ignore
+  collapse library dir [/home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0] ==> [/home/ed19aaf/anaconda3/lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0]
+  collapse library dir [/home/ed19aaf/anaconda3/bin/../lib/gcc] ==> [/home/ed19aaf/anaconda3/lib/gcc]
+  collapse library dir [/home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/lib/../lib] ==> [/home/ed19aaf/anaconda3/x86_64-conda_cos6-linux-gnu/lib]
+  collapse library dir [/home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/lib/../lib] ==> [/home/ed19aaf/anaconda3/x86_64-conda_cos6-linux-gnu/sysroot/lib]
+  collapse library dir [/home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/lib/../lib] ==> [/home/ed19aaf/anaconda3/x86_64-conda_cos6-linux-gnu/sysroot/usr/lib]
+  collapse library dir [/home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/lib] ==> [/home/ed19aaf/anaconda3/x86_64-conda_cos6-linux-gnu/lib]
+  collapse library dir [/home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/lib] ==> [/home/ed19aaf/anaconda3/x86_64-conda_cos6-linux-gnu/sysroot/lib]
+  collapse library dir [/home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/lib] ==> [/home/ed19aaf/anaconda3/x86_64-conda_cos6-linux-gnu/sysroot/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/home/ed19aaf/anaconda3/lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0;/home/ed19aaf/anaconda3/lib/gcc;/home/ed19aaf/anaconda3/x86_64-conda_cos6-linux-gnu/lib;/home/ed19aaf/anaconda3/x86_64-conda_cos6-linux-gnu/sysroot/lib;/home/ed19aaf/anaconda3/x86_64-conda_cos6-linux-gnu/sysroot/usr/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/ed19aaf/Programming/C++/perseus/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_04dc4/fast && /usr/bin/make -f CMakeFiles/cmTC_04dc4.dir/build.make CMakeFiles/cmTC_04dc4.dir/build
+make[1]: Entering directory '/home/ed19aaf/Programming/C++/perseus/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_04dc4.dir/testCXXCompiler.cxx.o
+/home/ed19aaf/anaconda3/bin/x86_64-conda_cos6-linux-gnu-c++    -fvisibility-inlines-hidden -std=c++17 -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe    -o CMakeFiles/cmTC_04dc4.dir/testCXXCompiler.cxx.o -c /home/ed19aaf/Programming/C++/perseus/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_04dc4
+/home/ed19aaf/clion-2019.2.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_04dc4.dir/link.txt --verbose=1
+/home/ed19aaf/anaconda3/bin/x86_64-conda_cos6-linux-gnu-c++  -fvisibility-inlines-hidden -std=c++17 -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe   -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections  CMakeFiles/cmTC_04dc4.dir/testCXXCompiler.cxx.o  -o cmTC_04dc4 
+make[1]: Leaving directory '/home/ed19aaf/Programming/C++/perseus/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/ed19aaf/Programming/C++/perseus/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_55779/fast && /usr/bin/make -f CMakeFiles/cmTC_55779.dir/build.make CMakeFiles/cmTC_55779.dir/build
+make[1]: Entering directory '/home/ed19aaf/Programming/C++/perseus/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_55779.dir/CMakeCXXCompilerABI.cpp.o
+/home/ed19aaf/anaconda3/bin/x86_64-conda_cos6-linux-gnu-c++    -fvisibility-inlines-hidden -std=c++17 -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe    -v -o CMakeFiles/cmTC_55779.dir/CMakeCXXCompilerABI.cpp.o -c /home/ed19aaf/clion-2019.2.4/bin/cmake/linux/share/cmake-3.15/Modules/CMakeCXXCompilerABI.cpp
+Reading specs from /home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/specs
+COLLECT_GCC=/home/ed19aaf/anaconda3/bin/x86_64-conda_cos6-linux-gnu-c++
+Target: x86_64-conda_cos6-linux-gnu
+Configured with: /home/rdonnelly/mc/conda-bld/compilers_linux-64_1534865402226/work/.build/x86_64-conda_cos6-linux-gnu/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=x86_64-conda_cos6-linux-gnu --prefix=/home/rdonnelly/mc/conda-bld/compilers_linux-64_1534865402226/work/gcc_built --with-sysroot=/home/rdonnelly/mc/conda-bld/compilers_linux-64_1534865402226/work/gcc_built/x86_64-conda_cos6-linux-gnu/sysroot --enable-languages=c,c++,fortran,objc,obj-c++ --with-pkgversion='crosstool-NG 1.23.0.449-a04d0' --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --enable-libmpx --with-gmp=/home/rdonnelly/mc/conda-bld/compilers_linux-64_1534865402226/work/.build/x86_64-conda_cos6-linux-gnu/buildtools --with-mpfr=/home/rdonnelly/mc/conda-bld/compilers_linux-64_1534865402226/work/.build/x86_64-conda_cos6-linux-gnu/buildtools --with-mpc=/home/rdonnelly/mc/conda-bld/compilers_linux-64_1534865402226/work/.build/x86_64-conda_cos6-linux-gnu/buildtools --with-isl=/home/rdonnelly/mc/conda-bld/compilers_linux-64_1534865402226/work/.build/x86_64-conda_cos6-linux-gnu/buildtools --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-multilib --with-local-prefix=/home/rdonnelly/mc/conda-bld/compilers_linux-64_1534865402226/work/gcc_built/x86_64-conda_cos6-linux-gnu/sysroot --enable-long-long --enable-default-pie
+Thread model: posix
+gcc version 7.3.0 (crosstool-NG 1.23.0.449-a04d0) 
+COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-std=c++1z' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-v' '-o' 'CMakeFiles/cmTC_55779.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc'
+ /home/ed19aaf/anaconda3/bin/../libexec/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/cc1plus -quiet -v -iprefix /home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/ -isysroot /home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot -D_GNU_SOURCE /home/ed19aaf/clion-2019.2.4/bin/cmake/linux/share/cmake-3.15/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -march=nocona -mtune=haswell -auxbase-strip CMakeFiles/cmTC_55779.dir/CMakeCXXCompilerABI.cpp.o -O2 -std=c++1z -version -fvisibility-inlines-hidden -fmessage-length=0 -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -ffunction-sections -o - |
+ /home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_55779.dir/CMakeCXXCompilerABI.cpp.o
+GNU assembler version 2.31.1 (x86_64-conda_cos6-linux-gnu) using BFD version (crosstool-NG 1.23.0.444-4ea7) 2.31.1
+GNU C++14 (crosstool-NG 1.23.0.449-a04d0) version 7.3.0 (x86_64-conda_cos6-linux-gnu)
+	compiled by GNU C version 4.4.7 20120313 (Red Hat 4.4.7-18), GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/home/ed19aaf/anaconda3/bin/../lib/gcc/../../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/include/c++/7.3.0"
+ignoring duplicate directory "/home/ed19aaf/anaconda3/bin/../lib/gcc/../../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/include/c++/7.3.0/x86_64-conda_cos6-linux-gnu"
+ignoring duplicate directory "/home/ed19aaf/anaconda3/bin/../lib/gcc/../../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/include/c++/7.3.0/backward"
+ignoring duplicate directory "/home/ed19aaf/anaconda3/bin/../lib/gcc/../../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/include"
+ignoring nonexistent directory "/home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/home/rdonnelly/mc/conda-bld/compilers_linux-64_1534865402226/work/gcc_built/x86_64-conda_cos6-linux-gnu/sysroot/include"
+ignoring duplicate directory "/home/ed19aaf/anaconda3/bin/../lib/gcc/../../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/include-fixed"
+ignoring duplicate directory "/home/ed19aaf/anaconda3/bin/../lib/gcc/../../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/include/c++/7.3.0
+ /home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/include/c++/7.3.0/x86_64-conda_cos6-linux-gnu
+ /home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/include/c++/7.3.0/backward
+ /home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/include
+ /home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/include-fixed
+ /home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/include
+ /home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/include
+End of search list.
+GNU C++14 (crosstool-NG 1.23.0.449-a04d0) version 7.3.0 (x86_64-conda_cos6-linux-gnu)
+	compiled by GNU C version 4.4.7 20120313 (Red Hat 4.4.7-18), GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 2f61739646e29ad60d2358d78f3bd7b4
+COMPILER_PATH=/home/ed19aaf/anaconda3/bin/../libexec/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/:/home/ed19aaf/anaconda3/bin/../libexec/gcc/:/home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/bin/
+LIBRARY_PATH=/home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/:/home/ed19aaf/anaconda3/bin/../lib/gcc/:/home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/lib/../lib/:/home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/lib/../lib/:/home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/lib/../lib/:/home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/lib/:/home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/lib/:/home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-std=c++1z' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-v' '-o' 'CMakeFiles/cmTC_55779.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc'
+Linking CXX executable cmTC_55779
+/home/ed19aaf/clion-2019.2.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_55779.dir/link.txt --verbose=1
+/home/ed19aaf/anaconda3/bin/x86_64-conda_cos6-linux-gnu-c++  -fvisibility-inlines-hidden -std=c++17 -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe   -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -v CMakeFiles/cmTC_55779.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_55779 
+Reading specs from /home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/specs
+COLLECT_GCC=/home/ed19aaf/anaconda3/bin/x86_64-conda_cos6-linux-gnu-c++
+COLLECT_LTO_WRAPPER=/home/ed19aaf/anaconda3/bin/../libexec/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/lto-wrapper
+Target: x86_64-conda_cos6-linux-gnu
+Configured with: /home/rdonnelly/mc/conda-bld/compilers_linux-64_1534865402226/work/.build/x86_64-conda_cos6-linux-gnu/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=x86_64-conda_cos6-linux-gnu --prefix=/home/rdonnelly/mc/conda-bld/compilers_linux-64_1534865402226/work/gcc_built --with-sysroot=/home/rdonnelly/mc/conda-bld/compilers_linux-64_1534865402226/work/gcc_built/x86_64-conda_cos6-linux-gnu/sysroot --enable-languages=c,c++,fortran,objc,obj-c++ --with-pkgversion='crosstool-NG 1.23.0.449-a04d0' --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --enable-libmpx --with-gmp=/home/rdonnelly/mc/conda-bld/compilers_linux-64_1534865402226/work/.build/x86_64-conda_cos6-linux-gnu/buildtools --with-mpfr=/home/rdonnelly/mc/conda-bld/compilers_linux-64_1534865402226/work/.build/x86_64-conda_cos6-linux-gnu/buildtools --with-mpc=/home/rdonnelly/mc/conda-bld/compilers_linux-64_1534865402226/work/.build/x86_64-conda_cos6-linux-gnu/buildtools --with-isl=/home/rdonnelly/mc/conda-bld/compilers_linux-64_1534865402226/work/.build/x86_64-conda_cos6-linux-gnu/buildtools --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-multilib --with-local-prefix=/home/rdonnelly/mc/conda-bld/compilers_linux-64_1534865402226/work/gcc_built/x86_64-conda_cos6-linux-gnu/sysroot --enable-long-long --enable-default-pie
+Thread model: posix
+gcc version 7.3.0 (crosstool-NG 1.23.0.449-a04d0) 
+COMPILER_PATH=/home/ed19aaf/anaconda3/bin/../libexec/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/:/home/ed19aaf/anaconda3/bin/../libexec/gcc/:/home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/bin/
+LIBRARY_PATH=/home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/:/home/ed19aaf/anaconda3/bin/../lib/gcc/:/home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/lib/../lib/:/home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/lib/../lib/:/home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/lib/../lib/:/home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/lib/:/home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/lib/:/home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-std=c++1z' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-v' '-o' 'cmTC_55779' '-shared-libgcc'
+ /home/ed19aaf/anaconda3/bin/../libexec/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/collect2 -plugin /home/ed19aaf/anaconda3/bin/../libexec/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/liblto_plugin.so -plugin-opt=/home/ed19aaf/anaconda3/bin/../libexec/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cctOtYc6.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_55779 /home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/crtbeginS.o -L/home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0 -L/home/ed19aaf/anaconda3/bin/../lib/gcc -L/home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/lib/../lib -L/home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/lib/../lib -L/home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/lib/../lib -L/home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/lib -L/home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/lib -L/home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/lib -rpath /home/ed19aaf/anaconda3/lib -O2 --sort-common --as-needed -z relro -z now --disable-new-dtags --gc-sections CMakeFiles/cmTC_55779.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/crtendS.o /home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/lib/../lib/crtn.o
+COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-std=c++1z' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-v' '-o' 'cmTC_55779' '-shared-libgcc'
+make[1]: Leaving directory '/home/ed19aaf/Programming/C++/perseus/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/include/c++/7.3.0]
+    add: [/home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/include/c++/7.3.0/x86_64-conda_cos6-linux-gnu]
+    add: [/home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/include/c++/7.3.0/backward]
+    add: [/home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/include]
+    add: [/home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/include-fixed]
+    add: [/home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/include]
+    add: [/home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/include]
+  end of search list found
+  collapse include dir [/home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/include/c++/7.3.0] ==> [/home/ed19aaf/anaconda3/x86_64-conda_cos6-linux-gnu/include/c++/7.3.0]
+  collapse include dir [/home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/include/c++/7.3.0/x86_64-conda_cos6-linux-gnu] ==> [/home/ed19aaf/anaconda3/x86_64-conda_cos6-linux-gnu/include/c++/7.3.0/x86_64-conda_cos6-linux-gnu]
+  collapse include dir [/home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/include/c++/7.3.0/backward] ==> [/home/ed19aaf/anaconda3/x86_64-conda_cos6-linux-gnu/include/c++/7.3.0/backward]
+  collapse include dir [/home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/include] ==> [/home/ed19aaf/anaconda3/lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/include]
+  collapse include dir [/home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/include-fixed] ==> [/home/ed19aaf/anaconda3/lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/include-fixed]
+  collapse include dir [/home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/include] ==> [/home/ed19aaf/anaconda3/x86_64-conda_cos6-linux-gnu/include]
+  collapse include dir [/home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/include] ==> [/home/ed19aaf/anaconda3/x86_64-conda_cos6-linux-gnu/sysroot/usr/include]
+  implicit include dirs: [/home/ed19aaf/anaconda3/x86_64-conda_cos6-linux-gnu/include/c++/7.3.0;/home/ed19aaf/anaconda3/x86_64-conda_cos6-linux-gnu/include/c++/7.3.0/x86_64-conda_cos6-linux-gnu;/home/ed19aaf/anaconda3/x86_64-conda_cos6-linux-gnu/include/c++/7.3.0/backward;/home/ed19aaf/anaconda3/lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/include;/home/ed19aaf/anaconda3/lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/include-fixed;/home/ed19aaf/anaconda3/x86_64-conda_cos6-linux-gnu/include;/home/ed19aaf/anaconda3/x86_64-conda_cos6-linux-gnu/sysroot/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/ed19aaf/Programming/C++/perseus/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_55779/fast && /usr/bin/make -f CMakeFiles/cmTC_55779.dir/build.make CMakeFiles/cmTC_55779.dir/build]
+  ignore line: [make[1]: Entering directory '/home/ed19aaf/Programming/C++/perseus/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_55779.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/home/ed19aaf/anaconda3/bin/x86_64-conda_cos6-linux-gnu-c++    -fvisibility-inlines-hidden -std=c++17 -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe    -v -o CMakeFiles/cmTC_55779.dir/CMakeCXXCompilerABI.cpp.o -c /home/ed19aaf/clion-2019.2.4/bin/cmake/linux/share/cmake-3.15/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Reading specs from /home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/specs]
+  ignore line: [COLLECT_GCC=/home/ed19aaf/anaconda3/bin/x86_64-conda_cos6-linux-gnu-c++]
+  ignore line: [Target: x86_64-conda_cos6-linux-gnu]
+  ignore line: [Configured with: /home/rdonnelly/mc/conda-bld/compilers_linux-64_1534865402226/work/.build/x86_64-conda_cos6-linux-gnu/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=x86_64-conda_cos6-linux-gnu --prefix=/home/rdonnelly/mc/conda-bld/compilers_linux-64_1534865402226/work/gcc_built --with-sysroot=/home/rdonnelly/mc/conda-bld/compilers_linux-64_1534865402226/work/gcc_built/x86_64-conda_cos6-linux-gnu/sysroot --enable-languages=c,c++,fortran,objc,obj-c++ --with-pkgversion='crosstool-NG 1.23.0.449-a04d0' --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --enable-libmpx --with-gmp=/home/rdonnelly/mc/conda-bld/compilers_linux-64_1534865402226/work/.build/x86_64-conda_cos6-linux-gnu/buildtools --with-mpfr=/home/rdonnelly/mc/conda-bld/compilers_linux-64_1534865402226/work/.build/x86_64-conda_cos6-linux-gnu/buildtools --with-mpc=/home/rdonnelly/mc/conda-bld/compilers_linux-64_1534865402226/work/.build/x86_64-conda_cos6-linux-gnu/buildtools --with-isl=/home/rdonnelly/mc/conda-bld/compilers_linux-64_1534865402226/work/.build/x86_64-conda_cos6-linux-gnu/buildtools --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-multilib --with-local-prefix=/home/rdonnelly/mc/conda-bld/compilers_linux-64_1534865402226/work/gcc_built/x86_64-conda_cos6-linux-gnu/sysroot --enable-long-long --enable-default-pie]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.3.0 (crosstool-NG 1.23.0.449-a04d0) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-std=c++1z' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-v' '-o' 'CMakeFiles/cmTC_55779.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc']
+  ignore line: [ /home/ed19aaf/anaconda3/bin/../libexec/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/cc1plus -quiet -v -iprefix /home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/ -isysroot /home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot -D_GNU_SOURCE /home/ed19aaf/clion-2019.2.4/bin/cmake/linux/share/cmake-3.15/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -march=nocona -mtune=haswell -auxbase-strip CMakeFiles/cmTC_55779.dir/CMakeCXXCompilerABI.cpp.o -O2 -std=c++1z -version -fvisibility-inlines-hidden -fmessage-length=0 -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -ffunction-sections -o - |]
+  ignore line: [ /home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_55779.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [GNU assembler version 2.31.1 (x86_64-conda_cos6-linux-gnu) using BFD version (crosstool-NG 1.23.0.444-4ea7) 2.31.1]
+  ignore line: [GNU C++14 (crosstool-NG 1.23.0.449-a04d0) version 7.3.0 (x86_64-conda_cos6-linux-gnu)]
+  ignore line: [	compiled by GNU C version 4.4.7 20120313 (Red Hat 4.4.7-18), GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/home/ed19aaf/anaconda3/bin/../lib/gcc/../../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/include/c++/7.3.0"]
+  ignore line: [ignoring duplicate directory "/home/ed19aaf/anaconda3/bin/../lib/gcc/../../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/include/c++/7.3.0/x86_64-conda_cos6-linux-gnu"]
+  ignore line: [ignoring duplicate directory "/home/ed19aaf/anaconda3/bin/../lib/gcc/../../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/include/c++/7.3.0/backward"]
+  ignore line: [ignoring duplicate directory "/home/ed19aaf/anaconda3/bin/../lib/gcc/../../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/include"]
+  ignore line: [ignoring nonexistent directory "/home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/home/rdonnelly/mc/conda-bld/compilers_linux-64_1534865402226/work/gcc_built/x86_64-conda_cos6-linux-gnu/sysroot/include"]
+  ignore line: [ignoring duplicate directory "/home/ed19aaf/anaconda3/bin/../lib/gcc/../../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/include-fixed"]
+  ignore line: [ignoring duplicate directory "/home/ed19aaf/anaconda3/bin/../lib/gcc/../../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/include/c++/7.3.0]
+  ignore line: [ /home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/include/c++/7.3.0/x86_64-conda_cos6-linux-gnu]
+  ignore line: [ /home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/include/c++/7.3.0/backward]
+  ignore line: [ /home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/include]
+  ignore line: [ /home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/include-fixed]
+  ignore line: [ /home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/include]
+  ignore line: [ /home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (crosstool-NG 1.23.0.449-a04d0) version 7.3.0 (x86_64-conda_cos6-linux-gnu)]
+  ignore line: [	compiled by GNU C version 4.4.7 20120313 (Red Hat 4.4.7-18), GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 2f61739646e29ad60d2358d78f3bd7b4]
+  ignore line: [COMPILER_PATH=/home/ed19aaf/anaconda3/bin/../libexec/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/:/home/ed19aaf/anaconda3/bin/../libexec/gcc/:/home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/bin/]
+  ignore line: [LIBRARY_PATH=/home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/:/home/ed19aaf/anaconda3/bin/../lib/gcc/:/home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/lib/../lib/:/home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/lib/../lib/:/home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/lib/../lib/:/home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/lib/:/home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/lib/:/home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-std=c++1z' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-v' '-o' 'CMakeFiles/cmTC_55779.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc']
+  ignore line: [Linking CXX executable cmTC_55779]
+  ignore line: [/home/ed19aaf/clion-2019.2.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_55779.dir/link.txt --verbose=1]
+  ignore line: [/home/ed19aaf/anaconda3/bin/x86_64-conda_cos6-linux-gnu-c++  -fvisibility-inlines-hidden -std=c++17 -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe   -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -v CMakeFiles/cmTC_55779.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_55779 ]
+  ignore line: [Reading specs from /home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/specs]
+  ignore line: [COLLECT_GCC=/home/ed19aaf/anaconda3/bin/x86_64-conda_cos6-linux-gnu-c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/ed19aaf/anaconda3/bin/../libexec/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/lto-wrapper]
+  ignore line: [Target: x86_64-conda_cos6-linux-gnu]
+  ignore line: [Configured with: /home/rdonnelly/mc/conda-bld/compilers_linux-64_1534865402226/work/.build/x86_64-conda_cos6-linux-gnu/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=x86_64-conda_cos6-linux-gnu --prefix=/home/rdonnelly/mc/conda-bld/compilers_linux-64_1534865402226/work/gcc_built --with-sysroot=/home/rdonnelly/mc/conda-bld/compilers_linux-64_1534865402226/work/gcc_built/x86_64-conda_cos6-linux-gnu/sysroot --enable-languages=c,c++,fortran,objc,obj-c++ --with-pkgversion='crosstool-NG 1.23.0.449-a04d0' --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --enable-libmpx --with-gmp=/home/rdonnelly/mc/conda-bld/compilers_linux-64_1534865402226/work/.build/x86_64-conda_cos6-linux-gnu/buildtools --with-mpfr=/home/rdonnelly/mc/conda-bld/compilers_linux-64_1534865402226/work/.build/x86_64-conda_cos6-linux-gnu/buildtools --with-mpc=/home/rdonnelly/mc/conda-bld/compilers_linux-64_1534865402226/work/.build/x86_64-conda_cos6-linux-gnu/buildtools --with-isl=/home/rdonnelly/mc/conda-bld/compilers_linux-64_1534865402226/work/.build/x86_64-conda_cos6-linux-gnu/buildtools --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-multilib --with-local-prefix=/home/rdonnelly/mc/conda-bld/compilers_linux-64_1534865402226/work/gcc_built/x86_64-conda_cos6-linux-gnu/sysroot --enable-long-long --enable-default-pie]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.3.0 (crosstool-NG 1.23.0.449-a04d0) ]
+  ignore line: [COMPILER_PATH=/home/ed19aaf/anaconda3/bin/../libexec/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/:/home/ed19aaf/anaconda3/bin/../libexec/gcc/:/home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/bin/]
+  ignore line: [LIBRARY_PATH=/home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/:/home/ed19aaf/anaconda3/bin/../lib/gcc/:/home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/lib/../lib/:/home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/lib/../lib/:/home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/lib/../lib/:/home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/lib/:/home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/lib/:/home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-std=c++1z' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-v' '-o' 'cmTC_55779' '-shared-libgcc']
+  link line: [ /home/ed19aaf/anaconda3/bin/../libexec/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/collect2 -plugin /home/ed19aaf/anaconda3/bin/../libexec/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/liblto_plugin.so -plugin-opt=/home/ed19aaf/anaconda3/bin/../libexec/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cctOtYc6.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_55779 /home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/crtbeginS.o -L/home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0 -L/home/ed19aaf/anaconda3/bin/../lib/gcc -L/home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/lib/../lib -L/home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/lib/../lib -L/home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/lib/../lib -L/home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/lib -L/home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/lib -L/home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/lib -rpath /home/ed19aaf/anaconda3/lib -O2 --sort-common --as-needed -z relro -z now --disable-new-dtags --gc-sections CMakeFiles/cmTC_55779.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/crtendS.o /home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/lib/../lib/crtn.o]
+    arg [/home/ed19aaf/anaconda3/bin/../libexec/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/home/ed19aaf/anaconda3/bin/../libexec/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/ed19aaf/anaconda3/bin/../libexec/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cctOtYc6.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_55779] ==> ignore
+    arg [/home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o] ==> ignore
+    arg [/home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/lib/../lib/crti.o] ==> ignore
+    arg [/home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/crtbeginS.o] ==> ignore
+    arg [-L/home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0] ==> dir [/home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0]
+    arg [-L/home/ed19aaf/anaconda3/bin/../lib/gcc] ==> dir [/home/ed19aaf/anaconda3/bin/../lib/gcc]
+    arg [-L/home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/lib/../lib] ==> dir [/home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/lib/../lib]
+    arg [-L/home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/lib/../lib] ==> dir [/home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/lib/../lib]
+    arg [-L/home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/lib/../lib] ==> dir [/home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/lib/../lib]
+    arg [-L/home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/lib] ==> dir [/home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/lib]
+    arg [-L/home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/lib] ==> dir [/home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/lib]
+    arg [-L/home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/lib] ==> dir [/home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/lib]
+    arg [-rpath] ==> ignore
+    arg [/home/ed19aaf/anaconda3/lib] ==> ignore
+    arg [-O2] ==> ignore
+    arg [--sort-common] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-znow] ==> ignore
+    arg [--disable-new-dtags] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [CMakeFiles/cmTC_55779.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/crtendS.o] ==> ignore
+    arg [/home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/lib/../lib/crtn.o] ==> ignore
+  collapse library dir [/home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0] ==> [/home/ed19aaf/anaconda3/lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0]
+  collapse library dir [/home/ed19aaf/anaconda3/bin/../lib/gcc] ==> [/home/ed19aaf/anaconda3/lib/gcc]
+  collapse library dir [/home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/lib/../lib] ==> [/home/ed19aaf/anaconda3/x86_64-conda_cos6-linux-gnu/lib]
+  collapse library dir [/home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/lib/../lib] ==> [/home/ed19aaf/anaconda3/x86_64-conda_cos6-linux-gnu/sysroot/lib]
+  collapse library dir [/home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/lib/../lib] ==> [/home/ed19aaf/anaconda3/x86_64-conda_cos6-linux-gnu/sysroot/usr/lib]
+  collapse library dir [/home/ed19aaf/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/lib] ==> [/home/ed19aaf/anaconda3/x86_64-conda_cos6-linux-gnu/lib]
+  collapse library dir [/home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/lib] ==> [/home/ed19aaf/anaconda3/x86_64-conda_cos6-linux-gnu/sysroot/lib]
+  collapse library dir [/home/ed19aaf/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/lib] ==> [/home/ed19aaf/anaconda3/x86_64-conda_cos6-linux-gnu/sysroot/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/home/ed19aaf/anaconda3/lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0;/home/ed19aaf/anaconda3/lib/gcc;/home/ed19aaf/anaconda3/x86_64-conda_cos6-linux-gnu/lib;/home/ed19aaf/anaconda3/x86_64-conda_cos6-linux-gnu/sysroot/lib;/home/ed19aaf/anaconda3/x86_64-conda_cos6-linux-gnu/sysroot/usr/lib]
+  implicit fwks: []
+
+
