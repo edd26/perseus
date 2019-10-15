@@ -133,16 +133,20 @@ num Complex<C,BT>::pruneList(const BT& birth, const num dim)
 
 
 // how many cells in the complex?
+// Emil: This is the bottleneck of the time execution of the program
 template <typename C, typename BT>
 num Complex<C,BT>::size() const
 {
-	num toret = 0;
-	typename COMPLEX::const_iterator cit;
-	for (cit = clist.begin(); cit != clist.end(); ++cit)
-	{
-		toret += fsize(cit->first);
-	}
-	return toret;
+    if(cell_num_changed) {
+        num toret = 0;
+        typename COMPLEX::const_iterator cit;
+        for (cit = clist.begin(); cit != clist.end(); ++cit) {
+            toret += fsize(cit->first);
+        }
+        this->complex_size = toret;
+        this->cell_num_changed = false;
+    }
+    return this->complex_size;
 }
 
 
@@ -344,6 +348,7 @@ void Complex<C,BT>::quicksert(const BT birth, const num dim, const vector<Cell<C
 	//cout<<">>>>>done!!!"; cin.get();
 	// memory saver?
 	CLIST(*curl).swap(*curl);
+    cell_num_changed = true;
 }
 
 // prints cells of dimension dim born at time birth.
@@ -473,6 +478,7 @@ bool Complex<C,BT>::insertCell(Cell<C,BT>* toin)
 	toin->isIn = true;
 	toin->ind = mylist->size()-1; // set cell's index
 
+    cell_num_changed = true;
 	return true;
 }
 
@@ -602,6 +608,7 @@ bool Complex<C,BT>::removeCell(Cell<C,BT>* tokill, typename CLIST::iterator& cpo
 			i->first->cb.removeCell(tokill);
 		}
 	}
+    this->cell_num_changed = true;
 	return true;
 }
 

@@ -108,7 +108,6 @@ int main(int argc, char* argv[])
        return 0;
 
     }
-
 	// use for dense cubical grid of top cubes
 	else if (input_type == "cubtop")
 	{

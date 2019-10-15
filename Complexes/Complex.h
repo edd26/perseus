@@ -38,6 +38,9 @@ public:
 	// cells of that (birth and) dimension and the second being the largest
 	// index of a cell of that dimension.
 
+    mutable num complex_size = -1;
+    mutable bool cell_num_changed = true;
+
 	// constructor
 	Complex()
 	{

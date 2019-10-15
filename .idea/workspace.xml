@@ -8,10 +8,22 @@
   <component name="CMakeSettings">
     <configurations>
       <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+      <configuration PROFILE_NAME="Release" CONFIG_NAME="Release" />
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22a3d875-6027-493a-a96f-5b287b9c5685" name="Default Changelist" comment="" />
+    <list default="true" id="22a3d875-6027-493a-a96f-5b287b9c5685" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Complexes/Complex.h" beforeDir="false" afterPath="$PROJECT_DIR$/Complexes/Complex.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Complexes/Complex.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Complexes/Complex.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pers.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Pers.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/perseus.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/perseus.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/perseus.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/perseus.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/perseus" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/perseus" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/matrix_simplices.txt" beforeDir="false" afterPath="$PROJECT_DIR$/matrix_simplices.txt" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,9 +34,14 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectId" id="1SEmKNuL7Pi7eE1VUOt2M4CgoW1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -34,6 +51,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="dynamic.analysis.tools.profiler" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -57,11 +75,19 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="perseus" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="perseus" TARGET_NAME="perseus" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="perseus" RUN_TARGET_NAME="perseus">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="perseus" TARGET_NAME="perseus" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="perseus" RUN_TARGET_NAME="perseus">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="perseus" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="nmfsimtop ../matrix_simplices.txt matrix_homology" PASS_PARENT_ENVS_2="true" PROJECT_NAME="perseus" TARGET_NAME="perseus" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="perseus" RUN_TARGET_NAME="perseus">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="showServicesTree" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -73,11 +99,33 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1571137064980</updated>
-      <workItem from="1571137067176" duration="4525000" />
+      <workItem from="1571137067176" duration="11509000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Complexes/Complex.hpp</url>
+          <line>138</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
